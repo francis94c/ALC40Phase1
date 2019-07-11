@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="welcome">Welcome to ALC 4.0</string>
+    <string name="about">About ALC</string>
+    <string name="profile">My Profile</string>
+    <string name="my_name">Francis Ilechukwu</string>
+    <string name="track">Track:  Android</string>
+    <string name="country">Country:  Nigeria</string>
+    <string name="email">Email:  francis94c@gmail.com</string>
+    <string name="phone">Phone Number:  08034993503</string>
+    <string name="slack">Slack Username:  francis94c</string>
+</resources>
