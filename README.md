@@ -10,4 +10,4 @@ ALC 4.0 Phase 1 Android Track Challenge.
 ![Activity B](https://res.cloudinary.com/francis94c/image/upload/v1562870430/Activity_B.png)
 
 ### Activity C - MyProfileActivity ###
-![Activity C](https://res.cloudinary.com/francis94c/image/upload/v1562870430/Activity_C.png)
+![Activity C](https://res.cloudinary.com/francis94c/image/upload/v1562870774/Activity_C.png)
