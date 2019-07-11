@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // Set 'Welcome to ALC 4.0' {welcomeTextView} to BOLD.
         ((TextView) findViewById(R.id.welcomeTextView)).setTypeface(null, Typeface.BOLD);
     }
 
