@@ -29,11 +29,6 @@ public class AboutALCActivity extends AppCompatActivity {
         webView = findViewById(R.id.webView);
         WebSettings webSettings = webView.getSettings();
 
-        // For HTTPS Pages to load HTTP Resources as well.
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            webSettings.setMixedContentMode( WebSettings.MIXED_CONTENT_ALWAYS_ALLOW );
-        }
-
         // The top part oft the page is powered by JavaScript.
         webSettings.setJavaScriptEnabled(true);
 
@@ -42,6 +37,10 @@ public class AboutALCActivity extends AppCompatActivity {
             @Override
             public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error){
                 // Some devices can't verify the site's SSL Certificate so we ignore such problems here.
+
+                // What i just did below is not advised in production grade software.
+
+                // MITM attack is real and scary things could happen ;-)
                 handler.proceed();
             }
         });
